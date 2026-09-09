@@ -3,187 +3,123 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Sitio web corporativo de Insight Solutions"
-    />
-    <title>Insight Solutions</title>
+    <meta name="description" content="Insight Solutions: estrategia, operaciones y transformación para empresas en Latinoamérica." />
+    <title>Insight Solutions | Consultoría estratégica</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="shortcut icon" type="image/icon" href="assets/img/logo.png"/>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" type="image/png" href="/logo.png" />
-    <link rel="alternate icon" type="image/png" href="assets/img/logo.png" />
-    <link rel="stylesheet" href="styles.css?v=20260713d" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="assets/img/logo.png" />
+    <link rel="stylesheet" href="styles.css?v=20260909" />
   </head>
   <body>
-    <div class="bg-motion" aria-hidden="true">
-      <span class="bg-orb bg-orb-a"></span>
-      <span class="bg-orb bg-orb-b"></span>
-      <span class="bg-orb bg-orb-c"></span>
-      <span class="bg-line bg-line-a"></span>
-      <span class="bg-line bg-line-b"></span>
-      <span class="bg-particle p1"></span>
-      <span class="bg-particle p2"></span>
-      <span class="bg-particle p3"></span>
-      <span class="bg-particle p4"></span>
-      <span class="bg-particle p5"></span>
-      <span class="bg-particle p6"></span>
-    </div>
-
-    <div class="bg-glow bg-glow-1" aria-hidden="true"></div>
-    <div class="bg-glow bg-glow-2" aria-hidden="true"></div>
-
     <header class="site-header" id="inicio">
       <nav class="container nav" aria-label="Principal">
         <a href="#inicio" class="logo" aria-label="Insight Solutions">
-          <img
-            src="/logo.png"
-            data-fallback="assets/img/logo.png"
-            alt=""
-            class="logo-mark"
-            onerror="if (!this.dataset.failed) { this.dataset.failed = '1'; this.src = this.dataset.fallback; } else { this.style.display = 'none'; }"
-          />
-          <span class="logo-text">
-            <span class="logo-text-a">Insight</span>
-            <span class="logo-text-b">Solutions</span>
-          </span>
+          <img src="assets/img/logo.png" alt="Insight Solutions" class="logo-mark" />
         </a>
         <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
           <span></span><span></span><span></span>
         </button>
         <ul class="nav-links">
+          <li><a href="#nosotros">Nosotros</a></li>
           <li><a href="#servicios">Servicios</a></li>
-          <li><a href="#proceso">Proceso</a></li>
-          <li><a href="#proyectos">Proyectos</a></li>
-          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#metodo">Nuestro método</a></li>
+          <li><a class="nav-contact" href="#contacto">Contacto</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section class="hero container reveal">
-        <p class="eyebrow">Consultoria y servicios a empresas</p>
-        <h1>Insight Consulting &amp; Corporate Solutions</h1>
-        <p class="hero-description">
-          Firma de consultoria en estrategia, operaciones y transformacion digital,
-          especializada en desarrollar soluciones personalizadas de alto impacto para
-          empresas e instituciones.
-        </p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="https://www.linkedin.com/login/es?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fcompany%2Finsightcorpsolutions&amp;fromSignIn=true&amp;trk=top-card_top-card-secondary-button-top-card-secondary-cta" target="_blank" rel="noopener noreferrer">
-            Seguir
-          </a>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-image" role="img" aria-label="Puerto comercial al atardecer"></div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content reveal">
+          <p class="eyebrow eyebrow-light">Consultoría estratégica en Latinoamérica</p>
+          <h1 id="hero-title">Decisiones que mueven<br />a las organizaciones.</h1>
+          <p class="hero-description">Acompañamos a empresas e instituciones a convertir retos complejos en resultados sostenibles.</p>
+          <a class="btn btn-primary" href="#contacto">Hablemos de su desafío <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-bottom container" aria-label="Áreas de especialidad">
+          <span>Estrategia</span><span>Operaciones</span><span>Transformación</span>
         </div>
       </section>
 
-      <section class="container section reveal" id="servicios">
-        <div class="section-header">
-          <p class="eyebrow">Sobre nosotros</p>
-          <h2>Consultoria y servicios a empresas</h2>
-          <p>
-            Somos una firma internacional de consultoria de gestion especializada
-            en el mercado latinoamericano. Acompanamos a nuestros clientes del
-            sector privado y publico en la implementacion de soluciones de alto
-            impacto, trabajando lado a lado para potenciar sus fortalezas y llevar
-            sus capacidades al maximo nivel.
-          </p>
+      <section class="intro container section reveal" id="nosotros">
+        <p class="eyebrow">Insight Solutions</p>
+        <div class="intro-grid">
+          <h2>Una mirada local<br />con alcance regional.</h2>
+          <div>
+            <p class="lead">Somos una firma internacional de consultoría de gestión especializada en el mercado latinoamericano.</p>
+            <p>Trabajamos lado a lado con equipos del sector privado y público para desarrollar capacidades, impulsar el crecimiento y lograr cambios que perduren.</p>
+          </div>
         </div>
-        <div class="cards">
-          <article class="card">
-            <h3>Sector</h3>
-            <p>Consultoria y servicios a empresas</p>
-          </article>
-          <article class="card">
-            <h3>Sede</h3>
-            <p>Panama, Panama</p>
-          </article>
-          <article class="card">
-            <h3>Seguidores</h3>
-            <p>109 seguidores</p>
-          </article>
+        <div class="numbers" aria-label="Información de la empresa">
+          <div><strong>2013</strong><span>Fundación</span></div>
+          <div><strong>LatAm</strong><span>Alcance regional</span></div>
+          <div><strong>Honduras, El Salvador,Guatemala, Panamá</strong><span>Nuestras sedes</span></div>
         </div>
       </section>
 
-      <section class="container section reveal" id="proceso">
-        <div class="section-header">
-          <p class="eyebrow">Especialidades</p>
-          <h2>Capacidades clave</h2>
-        </div>
-        <ol class="timeline">
-          <li>
-            <span>01</span>
-            <h3>Estrategia y crecimiento</h3>
-            <p>Planeamiento estrategico, estrategias de crecimiento sostenible e incremento de margen.</p>
-          </li>
-          <li>
-            <span>02</span>
-            <h3>Operacion y optimizacion</h3>
-            <p>Optimiza procesos y disena soluciones personalizadas para mejorar resultados de negocio.</p>
-          </li>
-          <li>
-            <span>03</span>
-            <h3>Agilidad y transformacion digital</h3>
-            <p>Implementa capacidades de agilidad organizacional y transformacion digital de alto impacto.</p>
-          </li>
-        </ol>
-      </section>
-
-      <section class="container section reveal" id="proyectos">
-        <div class="section-header">
-          <p class="eyebrow">Informacion corporativa</p>
-          <h2>Datos de la empresa</h2>
-        </div>
-        <div class="projects-grid">
-          <article class="project-card">
-            <h3>Perfil empresarial</h3>
-            <p>Tamano: de 2 a 10 empleados. Tipo: financiacion privada. Fundacion: 2013.</p>
-          </article>
-          <article class="project-card">
-            <h3>Equipo</h3>
-            <p>
-              <a  target="_blank" rel="noopener noreferrer">Ver 1 empleado</a>
-            </p>
-          </article>
+      <section class="services section" id="servicios">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div><p class="eyebrow">Lo que hacemos</p><h2>Convertimos visión<br />en avance.</h2></div>
+            <p>Combinamos pensamiento estratégico y ejecución práctica para generar impacto medible.</p>
+          </div>
+          <div class="service-grid">
+            <article class="service-card reveal">
+              <span>01</span><h3>Brokerage commodities alimentos</h3>
+              <p>Conectamos oportunidades comerciales en el mercado internacional de alimentos y materias primas.</p>
+              <a href="#contacto" aria-label="Consultar sobre brokerage de commodities de alimentos">Conocer más <b aria-hidden="true">→</b></a>
+            </article>
+            <article class="service-card reveal">
+              <span>02</span><h3>Hidrocarburos</h3>
+              <p>Operamos con official traders y refinerías para facilitar relaciones comerciales confiables.</p>
+              <a href="#contacto" aria-label="Consultar sobre hidrocarburos">Conocer más <b aria-hidden="true">→</b></a>
+            </article>
+            <article class="service-card reveal">
+              <span>03</span><h3>Crypto</h3>
+              <p>Acceso a desks regulados y OTCs para operaciones con activos digitales.</p>
+              <a href="#contacto" aria-label="Consultar sobre crypto">Conocer más <b aria-hidden="true">→</b></a>
+            </article>
+            <article class="service-card reveal">
+              <span>04</span><h3>Asesoría y Consultoría</h3>
+              <p>Acompañamiento estratégico para estructurar operaciones y acelerar decisiones de negocio.</p>
+              <a href="#contacto" aria-label="Consultar sobre asesoría y consultoría">Conocer más <b aria-hidden="true">→</b></a>
+            </article>
+          </div>
         </div>
       </section>
 
-      <section class="container section contact reveal" id="contacto">
-        <div class="section-header">
-          <p class="eyebrow">Contacto</p>
-          <h2>Conversemos sobre tu proximo desafio</h2>
-          <p>Escribenos y te ayudamos a construir una solucion adaptada a tus objetivos.</p>
+      <section class="method container section reveal" id="metodo">
+        <div class="method-image" role="img" aria-label="Reunión estratégica de equipo"></div>
+        <div class="method-copy">
+          <p class="eyebrow">Cómo trabajamos</p>
+          <h2>Entendemos primero. Ejecutamos después.</h2>
+          <p>Nos involucramos en cada contexto para alinear estrategia, personas y operación. No entregamos diagnósticos desde lejos: construimos soluciones junto a quienes las harán realidad.</p>
+          <ol>
+            <li><span>01</span> Entender el desafío</li>
+            <li><span>02</span> Diseñar la solución</li>
+            <li><span>03</span> Acompañar la ejecución</li>
+          </ol>
         </div>
+      </section>
 
-        <form class="contact-form" action="#" method="post">
-          <label>
-            Nombre
-            <input type="text" name="nombre" placeholder="Nombre" />
-          </label>
-          <label>
-            Correo
-            <input type="email" name="correo" placeholder="Correo" />
-          </label>
-          <label>
-            Mensaje
-            <textarea name="mensaje" rows="5" placeholder="Mensaje"></textarea>
-          </label>
-          <button type="submit" class="btn btn-primary">
-            Enviar mensaje
-          </button>
-        </form>
+      <section class="contact" id="contacto">
+        <div class="container contact-grid reveal">
+          <div><p class="eyebrow eyebrow-light">Contacto</p><h2>El próximo avance<br />puede comenzar hoy.</h2></div>
+          <form class="contact-form" action="#" method="post">
+            <label>Nombre<input type="text" name="nombre" placeholder="Su nombre" required /></label>
+            <label>Correo<input type="email" name="correo" placeholder="nombre@empresa.com" required /></label>
+            <label>Teléfono<input type="tel" name="telefono" placeholder="+000 0000 0000" required /></label>
+            <label>Mensaje<textarea name="mensaje" rows="3" placeholder="Cuéntenos brevemente su desafío" required></textarea></label>
+            <button type="submit" class="btn btn-primary">Enviar consulta <span aria-hidden="true">→</span></button>
+          </form>
+        </div>
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div class="container footer-content">
-        <p>Insight Consulting &amp; Corporate Solutions | Panama, Panama</p>
-      </div>
-    </footer>
-
+    <footer class="site-footer"><div class="container footer-content"><img src="assets/img/logo.png" alt="Insight Solutions" /><p>Honduras, El Salvador, Guatemala, Costa Rica y Panamá</p><p>© 2026 Insight Solutions</p></div></footer>
     <script src="script.js"></script>
   </body>
 </html>
